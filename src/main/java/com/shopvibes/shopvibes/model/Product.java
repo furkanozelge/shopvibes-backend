@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Product {
     @Id
     private String id;
-    private String email; // Kullanıcı e-mail adresi
+    private String email;
     private String status;
     private String image;
     private String ean;
